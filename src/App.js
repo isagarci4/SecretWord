@@ -57,7 +57,7 @@ function App() {
     setPickedCategory(category);
     setLetters(wordLetters);
 
-    setGameStage(stages[0].name);
+    setGameStage(stages[1].name);
   }, [pickWordAndCategory]);
 
   // Processa letra que o usuário digita no input
